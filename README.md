@@ -1,6 +1,9 @@
+PHASE ONE CODE CHALLENGE ONE.
+
 STUDENT GRADE GENERATOR
 
 this code will take a user’s input and grade it as follows
+
 1.Any number above 79 will be graded ‘A’
 
 2.60 to 79 will be graded ‘B’
