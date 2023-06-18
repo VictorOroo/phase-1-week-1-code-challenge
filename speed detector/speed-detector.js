@@ -1,8 +1,8 @@
+// A function for storing the program
 function SpeedChecker() {
-    const speed = parseFloat(prompt("Enter the car speed(km/h):"));
-
+    const speed = parseFloat(prompt("Enter the car speed(km/h):")); //this will promp the user to enter the car's speed
     if (isNaN(speed)) {
-        return "Please enter a valid number.";
+        return "Please enter a valid number."; //isNaN()is used to validate if its a valid number 
         
     } 
     if (speed < 70){
@@ -16,3 +16,6 @@ function SpeedChecker() {
         }
     }
 }
+//You can call the SpeedChecker function by doing the following
+let result = SpeedChecker();
+console.log(result);

@@ -1,7 +1,8 @@
+//A function to store all the program is created
 function findGrade() {
-    let marks = parseFloat(prompt("Enter your grade(0-100):"));
+    let marks = parseFloat(prompt("Enter your grade(0-100):"));//use is prompted to input a valid number for grading
 
-    if (marks < 0 || marks > 100) {
+    if (marks < 0 || marks > 100){//this will make sure the marks range from 0 to 100 
         return 'invalid';
         
     } else if (marks > 79) {
@@ -18,3 +19,6 @@ function findGrade() {
         return 'E';
     }
 }
+//to call findGrade()
+let grade = findGrade();
+console.log(grade);
