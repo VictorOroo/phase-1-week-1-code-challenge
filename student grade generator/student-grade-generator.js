@@ -1,5 +1,5 @@
 function findGrade() {
-    let marks = parseFloat(prompt("Enter your grade:"));
+    let marks = parseFloat(prompt("Enter your grade(0-100):"));
 
     if (marks < 0 || marks > 100) {
         return 'invalid';
